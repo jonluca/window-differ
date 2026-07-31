@@ -1,9 +1,5 @@
-# Window-Differ
+# WindowDiffer
 
-Deployed on the Chrome Web Store [here](https://chrome.google.com/webstore/detail/hdpnogmdpaabnpjkngobfggmgmjmeeko).
+Manifest V3 migration of Chrome Web Store item `hdpnogmdpaabnpjkngobfggmgmjmeeko`.
 
-Code that goes along with [this article](https://blog.jonlu.ca/posts/window-vars). Window Differ is a chrome extension that compares the global variables of any given webpage to the default Chrome ones, and shows any differences or additions between them.
-
-### Libraries
-
-* [object-hash](https://www.npmjs.com/package/object-hash)
+The extension now computes a fresh baseline at runtime instead of carrying a browser-version-specific hash table. Click the toolbar action, then inspect the page console for added and changed globals. Run `npm install`, then `npm run build` for all browser targets.
