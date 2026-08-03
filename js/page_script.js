@@ -268,5 +268,4 @@ function checkGlobal() {
   };
 }
 
-const res = checkGlobal();
-console.log(res);
+console.log(checkGlobal());

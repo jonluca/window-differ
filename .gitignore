@@ -1,1 +1,6 @@
 .idea/*
+node_modules/
+.output/
+.wxt/
+*.zip
+.DS_Store
